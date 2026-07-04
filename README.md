@@ -1,37 +1,38 @@
-# Status Beacon v0.1 Prototype Pack
+# Status Beacon Light Cube STL Export Pack
 
-Town Geek Status Beacon is an ESP32-powered smart presence indicator.
+This pack is organized for the GitHub repository:
 
-This v0.1 package is designed around these prototype parts:
+`Status-Beacon/CAD/OpenSCAD/LightCube/`
 
-| Part | Choice |
-|---|---|
-| MCU | ESP32-C3 SuperMini USB-C |
-| LEDs | 16-LED WS2812B RGB ring |
-| Motion | LIS3DH accelerometer |
-| Battery | 3.7V 2500mAh LiPo |
-| Charger | USB-C TP4056 LiPo charger/protection board |
-| Switch | Mini slide switch |
+## Parts
 
-## Included
+Export these files from OpenSCAD as STL:
 
-- Parametric OpenSCAD enclosure files
-- Prototype BOM
-- Wiring notes
-- BeaconOS starter firmware
-- Assembly guide
-- Print guide
+1. `StatusBeacon_LightCube_Body.scad`
+2. `StatusBeacon_LightCube_Diffuser.scad`
+3. `StatusBeacon_LightCube_RearCover.scad`
+4. `StatusBeacon_LightCube_LEDCarrier.scad`
 
-## External Size
+## Export Steps
 
-Target enclosure: **90 × 90 × 35 mm**
+1. Install OpenSCAD.
+2. Open one `.scad` file.
+3. Press **F6** to render.
+4. Go to **File → Export → Export as STL**.
+5. Save the STL into:
 
-## Main Files
+`CAD/STL/LightCube/`
 
-- `CAD/OpenSCAD/StatusBeacon_Body.scad`
-- `CAD/OpenSCAD/StatusBeacon_Diffuser.scad`
-- `CAD/OpenSCAD/StatusBeacon_RearCover.scad`
-- `CAD/OpenSCAD/StatusBeacon_LEDCarrier.scad`
-- `Firmware/BeaconOS/BeaconOS.ino`
-- `Electronics/BOM/prototype_bom.csv`
-- `Docs/Assembly/ASSEMBLY_GUIDE.md`
+## Suggested STL Names
+
+- `StatusBeacon_LightCube_Body_v0.1.stl`
+- `StatusBeacon_LightCube_Diffuser_v0.1.stl`
+- `StatusBeacon_LightCube_RearCover_v0.1.stl`
+- `StatusBeacon_LightCube_LEDCarrier_v0.1.stl`
+
+## Print Material
+
+- Body: PETG or PLA+
+- Diffuser: translucent/frosted PLA or PETG
+- Rear cover: PETG or PLA+
+- LED carrier: PETG or PLA+

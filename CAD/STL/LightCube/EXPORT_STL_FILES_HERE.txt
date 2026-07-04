@@ -1,0 +1,7 @@
+Export the STL files from OpenSCAD into this folder.
+
+Expected files:
+- StatusBeacon_LightCube_Body_v0.1.stl
+- StatusBeacon_LightCube_Diffuser_v0.1.stl
+- StatusBeacon_LightCube_RearCover_v0.1.stl
+- StatusBeacon_LightCube_LEDCarrier_v0.1.stl
