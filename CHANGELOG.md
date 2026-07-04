@@ -1,7 +1,8 @@
 # Changelog
 
-## v0.1.0-alpha
-- Initial Status Beacon repository structure
+## v0.1-alpha
+- Added prototype CAD OpenSCAD files
 - Added BeaconOS starter firmware
-- Added prototype BOM
-- Added documentation folders
+- Added wiring guide
+- Added BOM
+- Added assembly guide

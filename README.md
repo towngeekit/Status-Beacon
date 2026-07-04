@@ -1,41 +1,37 @@
-# Status Beacon
+# Status Beacon v0.1 Prototype Pack
 
-**Status Beacon** is a Town Geek smart presence indicator powered by ESP32.
+Town Geek Status Beacon is an ESP32-powered smart presence indicator.
 
-## Status Colors
+This v0.1 package is designed around these prototype parts:
 
-- Green: Available
-- Red: Busy
-- Yellow: Away
-- Blue: Focus / Do Not Disturb
-- Purple: Meeting
-- White: Offline
+| Part | Choice |
+|---|---|
+| MCU | ESP32-C3 SuperMini USB-C |
+| LEDs | 16-LED WS2812B RGB ring |
+| Motion | LIS3DH accelerometer |
+| Battery | 3.7V 2500mAh LiPo |
+| Charger | USB-C TP4056 LiPo charger/protection board |
+| Switch | Mini slide switch |
 
-## Project Goals
+## Included
 
-- Rechargeable USB-C desktop status light
-- ESP32-C3 based firmware
-- Wireless sync using ESP-NOW
-- Tilt/rotation status control
-- Microsoft Teams and Outlook integration
-- Home Assistant / MQTT support
-- 3D-printable enclosure
-- Future custom PCB
+- Parametric OpenSCAD enclosure files
+- Prototype BOM
+- Wiring notes
+- BeaconOS starter firmware
+- Assembly guide
+- Print guide
 
-## Firmware
+## External Size
 
-Firmware name: **BeaconOS**
+Target enclosure: **90 × 90 × 35 mm**
 
-## Repository Structure
+## Main Files
 
-```text
-CAD/             3D models, STL, STEP, renders
-Electronics/     KiCad, schematics, Gerbers, BOM
-Firmware/        ESP32 BeaconOS firmware
-Software/        Beacon Control desktop app
-Docs/            Build guides and API docs
-Images/          Photos, mockups, renders, branding
-Manufacturing/   Labels, packaging, QC checklist
-BOM/             Parts lists
-Releases/        Versioned release packages
-```
+- `CAD/OpenSCAD/StatusBeacon_Body.scad`
+- `CAD/OpenSCAD/StatusBeacon_Diffuser.scad`
+- `CAD/OpenSCAD/StatusBeacon_RearCover.scad`
+- `CAD/OpenSCAD/StatusBeacon_LEDCarrier.scad`
+- `Firmware/BeaconOS/BeaconOS.ino`
+- `Electronics/BOM/prototype_bom.csv`
+- `Docs/Assembly/ASSEMBLY_GUIDE.md`

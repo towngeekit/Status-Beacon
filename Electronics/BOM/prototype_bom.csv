@@ -1,0 +1,10 @@
+Qty,Part,Recommended Spec,Notes
+1,ESP32-C3 SuperMini,USB-C version,Main controller
+1,WS2812B RGB LED ring,"16 LED, 5V",Prototype lighting
+1,LIS3DH accelerometer,I2C breakout,Tilt/rotation detection
+1,TP4056 USB-C charger/protection,USB-C LiPo module,Battery charging
+1,LiPo battery,3.7V 2500mAh,Check physical size before final print
+1,Mini slide switch,SPST,Power switch
+4,M2 screws,6-10mm length,Rear cover
+1,Translucent filament/acrylic,Frosted diffuser,For front panel
+1,PLA+/PETG,White or black,Main enclosure
