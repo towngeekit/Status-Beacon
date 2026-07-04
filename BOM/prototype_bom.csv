@@ -1,0 +1,9 @@
+Qty,Part,Notes
+1,ESP32-C3 SuperMini,Main controller
+1,WS2812B RGB LED ring or square LED board,Status lighting
+1,MPU6050 or LIS3DH accelerometer,Tilt/rotation detection
+1,USB-C TP4056 LiPo charger,Charging module
+1,3.7V LiPo battery 1000-2500mAh,Rechargeable battery
+1,Mini slide switch,Power switch
+1,Frosted diffuser,Printed or acrylic
+1,3D printed enclosure,Status Beacon body
